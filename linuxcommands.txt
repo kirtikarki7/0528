@@ -45,7 +45,7 @@
 19. su [username] : switches to the username entered (requires password of target acc)
 20. sudo [command] : allows logged users to execute commands that require root privileges. 
 			requires password for user running the command.
-			can only be used by users in shudders group.
+			can only be used by users in sudodoers group.
 21. usermod -aG sudo [username] :adds user to the sudodoers group
 22. mv file1 file2 :moves files or directory from one place to another
 23. Touch filename :creates a new file 
