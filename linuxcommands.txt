@@ -36,7 +36,7 @@
 15. tar filename: compresses a file (archived)
 	tar -x filename :untar a file
 16. gzip filename: compresses a file (filename.gz)
-	gzip -9 filename : specifying the compression level (1-9 with 9 being the max and 				6 being default)
+	gzip -9 filename : specifying the compression level (1-9 with 9 being the max and 6 being default)
 17. echo typesomething :displays a line of string like print
 	echo -e \b :removes spaces in between the strings
 	echo -e \n :creates new line for each string
