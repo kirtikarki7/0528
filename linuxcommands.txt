@@ -1,0 +1,57 @@
+1. cd nameofthedirectory :takes you the paticular directory
+	cd.. :takes you to the parents directory of the current directory
+	cd/ :takes you to entire system root directory
+	cd../ :takes you 2 directory up
+	cd ~ :brings to the home directory
+2. mkdir directory :creates a new directory
+3. ls :lists all the files 
+	ls -al :list all the hidden files 
+	ls -lt :sorts list diplaying recently modified
+	ls -r :lists the file in reverse order
+4. pwd :shows current working directory
+5. whoami :displays username
+6. passwd :changes password
+7. mount :shows all the mounted devices
+8. chmod rwe :changes the mode
+	 4 read, 2 write, 1 execute, 0 no permission
+9. cat>filename :creates an empty file
+10. cat * :displays all the contents of a file
+11. vi filename :opens the file using vi editor
+	 i :insert mode
+	esc key :for normal mode
+	ctrl+Z :to stop vi editor 
+	:q! :exits editor without saving
+	:wq! :saves the edits and exits editor
+12. rm filename :deletes a file 
+	rm -r directory :deletes a directory
+	rm -f filename :force removes a file
+	rm -rf directory :force removes a directory
+13. cp file1 file2 :copies all the content of file1 to file2
+
+14. grep stringtomatch filename :searches string and prints matching lines 
+	grep stringtomatch filename1 filename2 :searches in multiple files
+	grep stringtomatch * :searches all the files  
+	grep -i stringtomatch filename :ignores case
+	grep -v stringtomatch filename :inverts the lists (first print all the unmatching)
+15. tar filename: compresses a file (archived)
+	tar -x filename :untar a file
+16. gzip filename: compresses a file (filename.gz)
+	gzip -9 filename : specifying the compression level (1-9 with 9 being the max and 				6 being default)
+17. echo typesomething :displays a line of string like print
+	echo -e \b :removes spaces in between the strings
+	echo -e \n :creates new line for each string
+	echo “type text here”>>filename :will insert the typed text into the file
+18. SHELL :allows you to switch to a new interface
+19. su [username] : switches to the username entered (requires password of target acc)
+20. sudo [command] : allows logged users to execute commands that require root privileges. 
+			requires password for user running the command.
+			can only be used by users in shudders group.
+21. usermod -aG sudo [username] :adds user to the sudodoers group
+22. mv file1 file2 :moves files or directory from one place to another
+23. Touch filename :creates a new file 
+
+
+
+
+
+
